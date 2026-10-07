@@ -20,6 +20,6 @@ public class CalculadoraTest {
     void testarMult(){
         Calculadora calc = new Calculadora();
         int res = calc.multiplicacao(3,2);
-        assertEquals(9, res);
+        assertEquals(6, res);
     }
 }
