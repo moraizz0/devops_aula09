@@ -25,4 +25,5 @@ jobs:
           cache: 'maven'
 
       - name: Executar testes
+        working-directory: ./aula09
         run: mvn test
